@@ -1,0 +1,26 @@
+apiVersion: entando.org/v1
+kind: EntandoDeBundle
+metadata:
+  name: snapshot-bundle
+  namespace: entando
+  labels:
+    widget: 'true'
+spec:
+  details:
+    name: snapshot-bundle
+    description: This is the snapshot bundle
+    dist-tags:
+      latest: v0.0.4
+    versions:
+      - v0.0.4
+      - v0.0.3
+  tags:
+    - version: v0.0.4
+      shasum: 80963014dbd9fba515ae79d6f5410c60157124e2
+      integrity: 80963014dbd9fba515ae79d6f5410c60157124e2
+      tarball: 'https://github.com/nshaw/snapshot-bundle.git'
+    - version: v0.0.3
+      shasum: 2ef60ac64ce3d7a311cbb0c42c072400f3304c7f
+      integrity: 2ef60ac64ce3d7a311cbb0c42c072400f3304c7f
+      tarball: 'https://github.com/nshaw/snapshot-bundle.git'
+
